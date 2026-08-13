@@ -1,4 +1,12 @@
-# ChemShaa Web
+<p align="center">
+  <img src="app/icon.png" alt="ChemShaa logo" width="88" />
+</p>
+
+<h1 align="center">ChemShaa Web</h1>
+
+<p align="center">
+  <a href="https://chemshaa-web.vercel.app"><strong>Live demo →</strong></a>
+</p>
 
 The pre-show flow of the ChemShaa Android app, Kenya's daily live trivia show
 with cash prizes, rebuilt as a responsive web app. Four screens: log in with a
