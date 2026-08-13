@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Local tooling scratch space, not application code.
+    ".remember/**",
   ]),
 ]);
 
