@@ -19,10 +19,6 @@ export function normalizePhone(input: string): string | null {
   return parsed.number;
 }
 
-export function isValidPhone(input: string): boolean {
-  return normalizePhone(input) !== null;
-}
-
 /** Display grouping fixed by the design spec: "+254 713 081 296". */
 export function formatPhoneDisplay(input: string): string {
   const e164 = normalizePhone(input);

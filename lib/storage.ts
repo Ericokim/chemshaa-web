@@ -1,4 +1,4 @@
-export const PHONE_KEY = "chemshaa.phone.v1";
+const PHONE_KEY = "chemshaa.phone.v1";
 
 export function getStoredPhone(): string | null {
   try {
