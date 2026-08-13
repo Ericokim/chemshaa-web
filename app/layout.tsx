@@ -15,9 +15,24 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://chemshaa-web.vercel.app"),
   title: "ChemShaa — Live Trivia",
   description:
-    "ChemShaa live trivia: log in with your mobile money number and get ready for the next show.",
+    "ChemShaa live trivia: log in with your mobile money number and get ready for the next show at 2:00 PM Nairobi.",
+  openGraph: {
+    title: "ChemShaa — Live Trivia",
+    description:
+      "Daily live trivia with cash prizes. Log in and get ready for the next show at 2:00 PM Nairobi.",
+    url: "/",
+    siteName: "ChemShaa",
+    images: [{ url: "/icon.png", width: 240, height: 240 }],
+  },
+  twitter: {
+    card: "summary",
+    title: "ChemShaa — Live Trivia",
+    description:
+      "Daily live trivia with cash prizes. Log in and get ready for the next show at 2:00 PM Nairobi.",
+  },
 };
 
 export const viewport: Viewport = {
